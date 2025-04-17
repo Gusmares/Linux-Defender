@@ -22,12 +22,7 @@ ToolLog/ ├── defender.sh # Script principal ├── logs/ # (opcional) D
 
 ## 📌 Como usar
 
-1. Dê permissão de execução:
-
 ```bash
 chmod +x defender.sh
-
-2. Rode o scan:
-
 ./defender.sh -s
 
