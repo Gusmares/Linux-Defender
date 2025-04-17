@@ -29,6 +29,5 @@ chmod +x defender.sh
 
 2. Rode o scan:
 
-```bash
 ./defender.sh -s
 
