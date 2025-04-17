@@ -72,7 +72,7 @@ scaner() {
     echo "[❌] Arquivo de log não encontrado!"
     exit 1
   fi
-
+  mkdir $HOME/Bash/ToolLog/logs/anomalias.txt
   while IFS= read -r linha; do
     for suspeito in "${sus[@]}"; do
       if echo "$linha" | grep -qi "$suspeito"; then
